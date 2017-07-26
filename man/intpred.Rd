@@ -7,7 +7,7 @@ intpred
 A pipeline for different gene selection and class prediction methods. 
 }
 \usage{
-intpred(edata, labs, seqp, fac, seed = 11)
+intpred(edata, labs, seqp, fac, seed = 145)
 }
 \arguments{
   \item{edata}{
@@ -39,7 +39,7 @@ data(edata)
 data(labs)
 seqp=c(seq(2,44,2),47)
 fac=2/3
-intpred(edata,labs,seqp,fac,seed=11)
+intpred(edata,labs,seqp,fac,seed=145)
 }
 \keyword{ ~kwd1 }% use one of  RShowDoc("KEYWORDS")
 \keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
