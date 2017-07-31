@@ -5,7 +5,7 @@
 # fac: is a proportion how the data should be split for cross validation
 # seeed: is a number used to fix results for reproducibility
 
-intpred <- function(edata,labs,seqp,fac,seed=145)
+intpred <- function(edata,labs,seqp,fac,seed=166)
 {
   #### Required packages
   installed<-installed.packages()[,1] 
