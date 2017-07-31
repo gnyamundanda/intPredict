@@ -28,5 +28,5 @@ data(edata)
 data(labs)
 seqp=c(seq(2,44,2),47)
 fac=2/3
-intpred(edata,labs,seqp,fac,seed=11)
+intpred(edata,labs,seqp,fac,seed=166)
 }
